@@ -7,16 +7,43 @@
     .global-back {
         background-color: tomato;
     }
+    
+    .global-gray {
+        background-color: gray;
+    }
     /* global color ends here */
     /* nav section stars here */
     
-    .Nav {
+    .Font {
         font-family: 'Cinzel', serif;
         font-weight: 20px;
     }
     
     .Button-reg {
         height: 40px;
-        width: 120px;
+        width: auto;
         font-weight: 20px;
+        cursor: pointer;
     }
+    /* nav ends here */
+    /* header data */
+    
+    .Card-Img {
+        min-height: 250px;
+        width: 120px;
+        padding-top: 0px;
+    }
+    /* header data ends here */
+    /* partner section stats here */
+    
+    .Partner-section {
+        width: 100%;
+        height: 190px;
+    }
+    
+    .Partner-logo img {
+        height: 120px;
+        width: auto;
+        padding-left: 80px;
+    }
+    /* partner section ends here */
